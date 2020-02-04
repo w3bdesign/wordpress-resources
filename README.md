@@ -1,5 +1,5 @@
 # Wordpress resources
-A curated list of interesting Wordpress resources.
+A personal list of interesting Wordpress resources.
 
 ## Wordpress standards
 
