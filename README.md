@@ -18,5 +18,13 @@ A personal list of interesting Wordpress resources.
 
 ## CSS
 
+### Grid
+
 - http://grid.malven.co/
+- https://css-tricks.com/snippets/css/complete-guide-grid/
+
+### Flex
+
 - http://flexbox.malven.co/
+- https://darekkay.com/dev/flexbox-cheatsheet.html
+
