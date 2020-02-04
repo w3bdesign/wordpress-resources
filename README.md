@@ -1,7 +1,7 @@
 # Wordpress resources
 A personal list of interesting Wordpress resources.
 
-## Wordpress standards
+## Wordpress coding standards
 
 - https://make.wordpress.org/core/handbook/best-practices/coding-standards/
 - https://www.elegantthemes.com/blog/resources/a-newbies-guide-to-wordpress-coding-standards
