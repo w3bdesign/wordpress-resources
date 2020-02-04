@@ -16,6 +16,10 @@ A personal list of interesting Wordpress resources.
 
 - https://torquemag.io/2020/01/create-gutenberg-block-with-acf/
 
+## HTML5
+
+- https://internetingishard.com/html-and-css/semantic-html/
+
 ## CSS
 
 ### Grid
