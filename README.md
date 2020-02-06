@@ -22,11 +22,17 @@ A personal list of interesting Wordpress resources.
 
 ## Speed optimization
 
+### Articles / videos
+
 - https://onlinemediamasters.com/why-is-wordpress-so-slow/
 - https://onlinemediamasters.com/slow-wordpress-plugins/
 - https://www.youtube.com/watch?v=JZVaeJwp7Zs
 - https://www.youtube.com/watch?v=ATXACFtcyKs
-- https://nb.wordpress.org/plugins/wp-asset-clean-up/
+
+### Tools
+
+- https://gtmetrix.com
+- https://wordpress.org/plugins/wp-asset-clean-up/
 
 ## Gutenberg
 
