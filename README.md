@@ -25,6 +25,7 @@ A personal list of interesting Wordpress resources.
 - https://onlinemediamasters.com/why-is-wordpress-so-slow/
 - https://onlinemediamasters.com/slow-wordpress-plugins/
 - https://www.youtube.com/watch?v=JZVaeJwp7Zs
+- https://www.youtube.com/watch?v=ATXACFtcyKs
 
 ## Gutenberg
 
