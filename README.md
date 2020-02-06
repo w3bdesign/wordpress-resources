@@ -26,6 +26,7 @@ A personal list of interesting Wordpress resources.
 - https://onlinemediamasters.com/slow-wordpress-plugins/
 - https://www.youtube.com/watch?v=JZVaeJwp7Zs
 - https://www.youtube.com/watch?v=ATXACFtcyKs
+- https://nb.wordpress.org/plugins/wp-asset-clean-up/
 
 ## Gutenberg
 
