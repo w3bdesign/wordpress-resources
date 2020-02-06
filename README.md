@@ -23,6 +23,7 @@ A personal list of interesting Wordpress resources.
 ## Speed optimization
 
 - https://onlinemediamasters.com/why-is-wordpress-so-slow/
+- https://onlinemediamasters.com/slow-wordpress-plugins/
 
 ## Gutenberg
 
