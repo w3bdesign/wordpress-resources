@@ -20,6 +20,10 @@ A personal list of interesting Wordpress resources.
 - https://chrislema.com/acceptance-testing-wordpress-codeception/
 - https://sevencoloursblog.wordpress.com/2019/03/06/running-codeception-functional-test-cases-with-circleci/
 
+## Speed optimization
+
+- https://www.youtube.com/watch?v=JZVaeJwp7Zs
+
 ## Gutenberg
 
 - https://torquemag.io/2020/01/create-gutenberg-block-with-acf/
