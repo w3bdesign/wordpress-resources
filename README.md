@@ -11,6 +11,7 @@ A personal list of interesting Wordpress resources.
 ## Wordpress development
 
 - https://www.hostinger.com/tutorials/wordpress-cheat-sheet
+- https://developer.wordpress.org/plugins/plugin-basics/
 
 ## Gutenberg
 
