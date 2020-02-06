@@ -13,6 +13,10 @@ A personal list of interesting Wordpress resources.
 - https://www.hostinger.com/tutorials/wordpress-cheat-sheet
 - https://developer.wordpress.org/plugins/plugin-basics/
 
+## Automated testing
+
+- https://make.wordpress.org/core/handbook/testing/automated-testing/writing-phpunit-tests/
+
 ## Gutenberg
 
 - https://torquemag.io/2020/01/create-gutenberg-block-with-acf/
