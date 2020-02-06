@@ -15,7 +15,9 @@ A personal list of interesting Wordpress resources.
 
 ## Automated testing
 
-- https://make.wordpress.org/core/handbook/testing/automated-testing/writing-phpunit-tests/
+- https://codeception.com/for/wordpress
+- https://github.com/lucatume/wp-browser
+- https://chrislema.com/acceptance-testing-wordpress-codeception/
 
 ## Gutenberg
 
