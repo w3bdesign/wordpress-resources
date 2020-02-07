@@ -54,3 +54,7 @@ A personal list of interesting Wordpress resources.
 - http://flexbox.malven.co/
 - https://darekkay.com/dev/flexbox-cheatsheet.html
 
+## PHP
+
+- https://phptherightway.com/
+
