@@ -24,6 +24,7 @@ A personal list of interesting Wordpress resources.
 - https://github.com/lucatume/wp-browser
 - https://chrislema.com/acceptance-testing-wordpress-codeception/
 - https://sevencoloursblog.wordpress.com/2019/03/06/running-codeception-functional-test-cases-with-circleci/
+- https://deliciousbrains.com/automated-testing-woocommerce/
 
 ## Speed optimization
 
