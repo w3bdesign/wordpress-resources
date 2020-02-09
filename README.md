@@ -16,8 +16,6 @@ A personal list of interesting Wordpress resources.
 - https://www.hostinger.com/tutorials/wordpress-cheat-sheet
 - https://developer.wordpress.org/plugins/plugin-basics/
 
-<hr>
-
 ### Gulp
 
 - https://github.com/LearnWebCode/vagrant-lamp
