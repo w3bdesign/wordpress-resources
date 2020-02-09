@@ -52,6 +52,7 @@ add_filter( ‘use_block_editor_for_post’, ‘__return_false’);
 ```
 
 - https://wordpress.org/plugins/disable-gutenberg/
+- https://wordpress.org/plugins/classic-editor/
 
 ## HTML5
 
