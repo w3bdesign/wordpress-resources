@@ -51,6 +51,8 @@ Deactivate Gutenberg:
 add_filter( ‘use_block_editor_for_post’, ‘__return_false’);
 ```
 
+- https://wordpress.org/plugins/disable-gutenberg/
+
 ## HTML5
 
 - https://internetingishard.com/html-and-css/semantic-html/
