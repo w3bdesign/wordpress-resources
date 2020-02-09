@@ -8,15 +8,21 @@ A personal list of interesting Wordpress resources.
 - https://torquemag.io/2019/03/wordpress-coding-standards/
 - https://github.com/WordPress/WordPress-Coding-Standards
 
+<hr>
+
 ## Wordpress development
 
 - https://www.hostinger.com/tutorials/wordpress-cheat-sheet
 - https://developer.wordpress.org/plugins/plugin-basics/
 
+<hr>
+
 ### Gulp
 
 - https://github.com/LearnWebCode/vagrant-lamp
 - https://coder-coder.com/gulp-4-walk-through/
+
+<hr>
 
 ## Automated testing
 
@@ -27,6 +33,8 @@ A personal list of interesting Wordpress resources.
 - https://deliciousbrains.com/automated-testing-woocommerce/
 - https://codeception.com/docs/03-AcceptanceTests
 - https://macarthur.me/posts/simpler-unit-testing-for-wordpress
+
+<hr>
 
 ## Speed optimization
 
@@ -42,6 +50,8 @@ A personal list of interesting Wordpress resources.
 - https://gtmetrix.com
 - https://wordpress.org/plugins/wp-asset-clean-up/
 
+<hr>
+
 ## Gutenberg
 
 - https://torquemag.io/2020/01/create-gutenberg-block-with-acf/
@@ -54,9 +64,13 @@ add_filter( ‘use_block_editor_for_post’, ‘__return_false’);
 - https://wordpress.org/plugins/disable-gutenberg/
 - https://wordpress.org/plugins/classic-editor/
 
+<hr>
+
 ## HTML5
 
 - https://internetingishard.com/html-and-css/semantic-html/
+
+<hr>
 
 ## CSS
 
@@ -69,6 +83,8 @@ add_filter( ‘use_block_editor_for_post’, ‘__return_false’);
 
 - http://flexbox.malven.co/
 - https://darekkay.com/dev/flexbox-cheatsheet.html
+
+<hr>
 
 ## PHP
 
