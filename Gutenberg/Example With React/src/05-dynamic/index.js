@@ -6,26 +6,26 @@ const { withSelect } = wp.data;
 import { ReactComponent as Logo } from "../bv-logo.svg";
 import logoWhiteURL from "../bv-logo-white.svg";
 
-registerBlockType("podkit/dynamic", {
-  title: __("Latest episode promo", "podkit"),
+registerBlockType("gutenberg/dynamic", {
+  title: __("Latest episode promo", "gutenberg"),
   icon: { src: Logo },
-  category: "podkit",
+  category: "gutenberg",
   supports: {
     align: [ 'wide', 'full' ]
   },
   styles: [
     {
         name: 'default',
-        label: __( 'Red (default)', "podkit" ),
+        label: __( 'Red (default)', "gutenberg" ),
         isDefault: true
     },
     {
         name: 'blue',
-        label: __( 'Blue', "podkit" )
+        label: __( 'Blue', "gutenberg" )
     },
     {
         name: 'yellow',
-        label: __( 'Yellow', "podkit" )
+        label: __( 'Yellow', "gutenberg" )
     }
   ],
 
@@ -57,23 +57,23 @@ registerBlockType("podkit/dynamic", {
     }
 
     return (
-      <div className={`${className} podkit-block podkit-dynamic`} >
-        <figure className="podkit-logo">
-          <img src={featImg(post.featured_image_podkitFeatImg_url)} alt="logo" />
+      <div className={`${className} gutenberg-block gutenberg-dynamic`} >
+        <figure className="gutenberg-logo">
+          <img src={featImg(post.featured_image_gutenbergFeatImg_url)} alt="logo" />
         </figure>
-        <div className="podkit-info">
-          <div className="podkit-nameplate">
-            {__("The Binaryville Podcast", "podkit")}
+        <div className="gutenberg-info">
+          <div className="gutenberg-nameplate">
+            {__("The Binaryville Podcast", "gutenberg")}
           </div>
-          <h3 className="podkit-title">
+          <h3 className="gutenberg-title">
             <RichText.Content value={post.title.rendered} />
           </h3>
         </div>
-        <div className="podkit-description">
+        <div className="gutenberg-description">
         <RichText.Content value={post.excerpt.rendered} />
         </div>
-        <div className="podkit-cta">
-          <a href={post.link}>{__("Listen now!", "podkit")}</a>
+        <div className="gutenberg-cta">
+          <a href={post.link}>{__("Listen now!", "gutenberg")}</a>
         </div>
       </div>
     );

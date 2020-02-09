@@ -2,12 +2,12 @@ figure {
 	margin: 0;
 }
 
-.podkit-logo {
+.gutenberg-logo {
 	position: relative;
 	border: 1px solid white;
 }
 
-.podkit-logo__button {
+.gutenberg-logo__button {
 	position: absolute;
 	bottom: 4px;
 	right: 4px;
@@ -15,64 +15,64 @@ figure {
 	border: 1px solid grey;
 }
 
-.podkit-title {
+.gutenberg-title {
 	margin: 3px 3px 0 0;
 }
 
-.podkit-cta a {
-	color: var(--podkit-font-highlight-color)!important;
+.gutenberg-cta a {
+	color: var(--gutenberg-font-highlight-color)!important;
 }
 
-.podkit-url::before {
+.gutenberg-url::before {
 	margin-right: .5em;
 	content: "↳";
 }
 
-.podkit-url {
+.gutenberg-url {
 	display: flex;
 	margin-left: calc(20% + 2em);
 	padding: .5em .5em .5em 0;
 	font-family: sans-serif;
 }
 
-.podkit-url__input {
+.gutenberg-url__input {
 	margin: 0 0 0 .5em;
 	padding: 0 .5em;
 	border: 1px solid hsl(0, 0%, 50%);
 	border-radius: 3px;
 }
 
-.podkit-cta .editor-url-input__button {
+.gutenberg-cta .editor-url-input__button {
     align-self: center;
 }
 
-.podkit-cta form.editor-url-input__button-modal {
+.gutenberg-cta form.editor-url-input__button-modal {
     position: absolute;
 }
 
-.podkit-dropdown {
+.gutenberg-dropdown {
 	display: inline-block;
 	margin-left: .5em;
 	align-self: center;
 }
 
-.podkit-dropdown .components-button:active:enabled {
+.gutenberg-dropdown .components-button:active:enabled {
 	vertical-align: inherit;
 }
 
-.podkit-dropdown__input {
+.gutenberg-dropdown__input {
 	padding: 8px 8px 0;
 }
 
-.podkit-expanded .editor-rich-text__inline-toolbar {
+.gutenberg-expanded .editor-rich-text__inline-toolbar {
 	justify-content: start;
 }
 
-.editor-styles-wrapper h3.podkit-title {
+.editor-styles-wrapper h3.gutenberg-title {
 	font-weight: lighter;
 }
 
-.wp-block[data-align="full"] .podkit-block {
+.wp-block[data-align="full"] .gutenberg-block {
 	padding: 3em;
 	box-shadow: none;
 }

@@ -94,48 +94,48 @@ var registerBlockType = wp.blocks.registerBlockType; // Import SVG as React comp
 
  // https://wordpress.org/gutenberg/handbook/designers-developers/developers/block-api/block-registration/
 
-registerBlockType("podkit/static", {
-  title: __("Like & Subscribe", "podkit"),
+registerBlockType("gutenberg/static", {
+  title: __("Like & Subscribe", "gutenberg"),
   icon: {
     src: _bv_logo_svg__WEBPACK_IMPORTED_MODULE_1__["ReactComponent"]
   },
-  category: "podkit",
+  category: "gutenberg",
   // https://wordpress.org/gutenberg/handbook/designers-developers/developers/block-api/block-edit-save/
   edit: function edit() {
     return Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("div", {
-      className: "podkit-block podkit-static"
+      className: "gutenberg-block gutenberg-static"
     }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("figure", {
-      className: "podkit-logo"
+      className: "gutenberg-logo"
     }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("img", {
       src: _bv_logo_white_svg__WEBPACK_IMPORTED_MODULE_2__["default"],
       alt: "logo"
     })), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("div", {
-      className: "podkit-info"
+      className: "gutenberg-info"
     }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("h3", {
-      className: "podkit-title"
-    }, __("The Binaryville Podcast", "podkit")), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("div", {
-      className: "podkit-cta"
+      className: "gutenberg-title"
+    }, __("The Binaryville Podcast", "gutenberg")), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("div", {
+      className: "gutenberg-cta"
     }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("a", {
       href: "#"
-    }, __("Like & Subscribe!", "podkit")))));
+    }, __("Like & Subscribe!", "gutenberg")))));
   },
   save: function save() {
     return Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("div", {
-      className: "podkit-block podkit-static"
+      className: "gutenberg-block gutenberg-static"
     }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("figure", {
-      className: "podkit-logo"
+      className: "gutenberg-logo"
     }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("img", {
       src: _bv_logo_white_svg__WEBPACK_IMPORTED_MODULE_2__["default"],
       alt: "logo"
     })), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("div", {
-      className: "podkit-info"
+      className: "gutenberg-info"
     }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("h3", {
-      className: "podkit-title"
-    }, __("The Binaryville Podcast", "podkit")), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("div", {
-      className: "podkit-cta"
+      className: "gutenberg-title"
+    }, __("The Binaryville Podcast", "gutenberg")), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("div", {
+      className: "gutenberg-cta"
     }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("a", {
       href: "/subscribe"
-    }, __("Like & Subscribe!", "podkit")))));
+    }, __("Like & Subscribe!", "gutenberg")))));
   }
 });
 
@@ -160,17 +160,17 @@ var registerBlockType = wp.blocks.registerBlockType;
 var RichText = wp.editor.RichText;
 
 
-registerBlockType("podkit/editable", {
-  title: __("Custom Title", "podkit"),
+registerBlockType("gutenberg/editable", {
+  title: __("Custom Title", "gutenberg"),
   icon: {
     src: _bv_logo_svg__WEBPACK_IMPORTED_MODULE_1__["ReactComponent"]
   },
-  category: "podkit",
+  category: "gutenberg",
   attributes: {
     epsiodeTitle: {
       type: "string",
       source: "html",
-      selector: ".podkit-title"
+      selector: ".gutenberg-title"
     }
   },
   edit: function edit(props) {
@@ -188,50 +188,50 @@ registerBlockType("podkit/editable", {
     };
 
     return Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("div", {
-      className: "".concat(className, " podkit-block podkit-editable")
+      className: "".concat(className, " gutenberg-block gutenberg-editable")
     }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("figure", {
-      className: "podkit-logo"
+      className: "gutenberg-logo"
     }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("img", {
       src: _bv_logo_white_svg__WEBPACK_IMPORTED_MODULE_2__["default"],
       alt: "logo"
     })), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("div", {
-      className: "podkit-info"
+      className: "gutenberg-info"
     }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("div", {
-      className: "podkit-nameplate"
-    }, __("The Binaryville Podcast", "podkit")), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("h3", {
-      className: "podkit-title"
+      className: "gutenberg-nameplate"
+    }, __("The Binaryville Podcast", "gutenberg")), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("h3", {
+      className: "gutenberg-title"
     }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(RichText, {
-      placeholder: __("Podcast episode title", "podkit"),
+      placeholder: __("Podcast episode title", "gutenberg"),
       value: epsiodeTitle,
       onChange: onChangeEpisodeTitle
     })), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("div", {
-      className: "podkit-cta"
+      className: "gutenberg-cta"
     }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("a", {
       href: "#"
-    }, __("Like & Subscribe!", "podkit")))));
+    }, __("Like & Subscribe!", "gutenberg")))));
   },
   save: function save(props) {
     var epsiodeTitle = props.attributes.epsiodeTitle;
     return Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("div", {
-      className: "podkit-block podkit-static"
+      className: "gutenberg-block gutenberg-static"
     }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("figure", {
-      className: "podkit-logo"
+      className: "gutenberg-logo"
     }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("img", {
       src: _bv_logo_white_svg__WEBPACK_IMPORTED_MODULE_2__["default"],
       alt: "logo"
     })), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("div", {
-      className: "podkit-info"
+      className: "gutenberg-info"
     }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("div", {
-      className: "podkit-nameplate"
-    }, __("The Binaryville Podcast", "podkit")), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("h3", {
-      className: "podkit-title"
+      className: "gutenberg-nameplate"
+    }, __("The Binaryville Podcast", "gutenberg")), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("h3", {
+      className: "gutenberg-title"
     }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(RichText.Content, {
       value: epsiodeTitle
     })), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("div", {
-      className: "podkit-cta"
+      className: "gutenberg-cta"
     }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("a", {
       href: "/subscribe"
-    }, __("Like & Subscribe!", "podkit")))));
+    }, __("Like & Subscribe!", "gutenberg")))));
   }
 });
 
@@ -262,22 +262,22 @@ var _wp$components = wp.components,
 console.info(wp.components);
 
 
-registerBlockType("podkit/media", {
-  title: __("Custom title and image", "podkit"),
+registerBlockType("gutenberg/media", {
+  title: __("Custom title and image", "gutenberg"),
   icon: {
     src: _bv_logo_svg__WEBPACK_IMPORTED_MODULE_1__["ReactComponent"]
   },
-  category: "podkit",
+  category: "gutenberg",
   attributes: {
     epsiodeTitle: {
       type: "string",
       source: "html",
-      selector: ".podkit-title"
+      selector: ".gutenberg-title"
     },
     episodeImage: {
       type: "string",
       source: "attribute",
-      selector: ".podkit-logo img",
+      selector: ".gutenberg-logo img",
       attribute: "src",
       default: _bv_logo_white_svg__WEBPACK_IMPORTED_MODULE_2__["default"]
     }
@@ -294,19 +294,19 @@ registerBlockType("podkit/media", {
       setAttributes({
         epsiodeTitle: newEpisodeTitle
       });
-    }; // Grab imageObject, set the value of episodeImage to imageObject.sizes.podkitFeatImg.url.
+    }; // Grab imageObject, set the value of episodeImage to imageObject.sizes.gutenbergFeatImg.url.
 
 
     var onImageSelect = function onImageSelect(imageObject) {
       setAttributes({
-        episodeImage: imageObject.sizes.podkitFeatImg.url
+        episodeImage: imageObject.sizes.gutenbergFeatImg.url
       });
     };
 
     return Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("div", {
-      className: "".concat(className, " podkit-block podkit-editable")
+      className: "".concat(className, " gutenberg-block gutenberg-editable")
     }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("figure", {
-      className: "podkit-logo"
+      className: "gutenberg-logo"
     }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("img", {
       src: episodeImage,
       alt: "logo"
@@ -317,53 +317,53 @@ registerBlockType("podkit/media", {
       render: function render(_ref) {
         var open = _ref.open;
         return Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(IconButton, {
-          className: "podkit-logo__button",
+          className: "gutenberg-logo__button",
           onClick: open,
           icon: "format-image",
           showTooltip: "true",
-          label: __("Change image.", "podkit")
+          label: __("Change image.", "gutenberg")
         });
       }
     })), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("div", {
-      className: "podkit-info"
+      className: "gutenberg-info"
     }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("div", {
-      className: "podkit-nameplate"
-    }, __("The Binaryville Podcast", "podkit")), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("h3", {
-      className: "podkit-title"
+      className: "gutenberg-nameplate"
+    }, __("The Binaryville Podcast", "gutenberg")), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("h3", {
+      className: "gutenberg-title"
     }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(RichText, {
-      placeholder: __("Podcast episode title", "podkit"),
+      placeholder: __("Podcast episode title", "gutenberg"),
       value: epsiodeTitle,
       onChange: onChangeEpisodeTitle
     })), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("div", {
-      className: "podkit-cta"
+      className: "gutenberg-cta"
     }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("a", {
       href: "#"
-    }, __("Like & Subscribe!", "podkit")))));
+    }, __("Like & Subscribe!", "gutenberg")))));
   },
   save: function save(props) {
     var _props$attributes2 = props.attributes,
         epsiodeTitle = _props$attributes2.epsiodeTitle,
         episodeImage = _props$attributes2.episodeImage;
     return Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("div", {
-      className: "podkit-block podkit-static"
+      className: "gutenberg-block gutenberg-static"
     }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("figure", {
-      className: "podkit-logo"
+      className: "gutenberg-logo"
     }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("img", {
       src: episodeImage,
       alt: "logo"
     })), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("div", {
-      className: "podkit-info"
+      className: "gutenberg-info"
     }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("div", {
-      className: "podkit-nameplate"
-    }, __("The Binaryville Podcast", "podkit")), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("h3", {
-      className: "podkit-title"
+      className: "gutenberg-nameplate"
+    }, __("The Binaryville Podcast", "gutenberg")), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("h3", {
+      className: "gutenberg-title"
     }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(RichText.Content, {
       value: epsiodeTitle
     })), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("div", {
-      className: "podkit-cta"
+      className: "gutenberg-cta"
     }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("a", {
       href: "/subscribe"
-    }, __("Like & Subscribe!", "podkit")))));
+    }, __("Like & Subscribe!", "gutenberg")))));
   }
 });
 
@@ -398,22 +398,22 @@ var _wp$components = wp.components,
     PanelBody = _wp$components.PanelBody;
 
 
-registerBlockType("podkit/extended", {
-  title: __("Extended episode promo", "podkit"),
+registerBlockType("gutenberg/extended", {
+  title: __("Extended episode promo", "gutenberg"),
   icon: {
     src: _bv_logo_svg__WEBPACK_IMPORTED_MODULE_1__["ReactComponent"]
   },
-  category: "podkit",
+  category: "gutenberg",
   attributes: {
     epsiodeTitle: {
       type: "string",
       source: "html",
-      selector: ".podkit-title"
+      selector: ".gutenberg-title"
     },
     episodeImage: {
       type: "string",
       source: "attribute",
-      selector: ".podkit-logo img",
+      selector: ".gutenberg-logo img",
       attribute: "src",
       default: _bv_logo_white_svg__WEBPACK_IMPORTED_MODULE_2__["default"]
     },
@@ -421,12 +421,12 @@ registerBlockType("podkit/extended", {
       type: "array",
       source: "children",
       multiline: "p",
-      selector: ".podkit-description"
+      selector: ".gutenberg-description"
     },
     episodeURL: {
       type: "string",
       source: "attribute",
-      selector: ".podkit-cta a",
+      selector: ".gutenberg-cta a",
       attribute: "href"
     },
     descriptionAlignment: {
@@ -442,14 +442,14 @@ registerBlockType("podkit/extended", {
   },
   styles: [{
     name: 'default',
-    label: __('Red (default)', "podkit"),
+    label: __('Red (default)', "gutenberg"),
     isDefault: true
   }, {
     name: 'blue',
-    label: __('Blue', "podkit")
+    label: __('Blue', "gutenberg")
   }, {
     name: 'yellow',
-    label: __('Yellow', "podkit")
+    label: __('Yellow', "gutenberg")
   }],
   edit: function edit(props) {
     // Lift info from props and populate various constants.
@@ -467,12 +467,12 @@ registerBlockType("podkit/extended", {
       setAttributes({
         epsiodeTitle: newEpisodeTitle
       });
-    }; // Grab imageObject, set the value of episodeImage to imageObject.sizes.podkitFeatImg.url.
+    }; // Grab imageObject, set the value of episodeImage to imageObject.sizes.gutenbergFeatImg.url.
 
 
     var onImageSelect = function onImageSelect(imageObject) {
       setAttributes({
-        episodeImage: imageObject.sizes.podkitFeatImg.url
+        episodeImage: imageObject.sizes.gutenbergFeatImg.url
       });
     }; // Grab newEpisodeDescription, set the value of episodeDescription to newEpisodeDescription.
 
@@ -505,18 +505,18 @@ registerBlockType("podkit/extended", {
     };
 
     return [Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(InspectorControls, null, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(PanelBody, {
-      title: __('Color settings', "podkit")
+      title: __('Color settings', "gutenberg")
     }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("div", {
       className: "components-base-control"
     }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("div", {
       className: "components-base-control__field"
     }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("label", {
       className: "components-base-control__label"
-    }, __("Background color", "podkit")), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(ColorPalette, {
+    }, __("Background color", "gutenberg")), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(ColorPalette, {
       value: backgroundColor,
       onChange: onChangeBackgroundColor
     }))))), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("div", {
-      className: "".concat(className, " podkit-block podkit-expanded"),
+      className: "".concat(className, " gutenberg-block gutenberg-expanded"),
       style: {
         background: backgroundColor
       }
@@ -524,7 +524,7 @@ registerBlockType("podkit/extended", {
       value: descriptionAlignment,
       onChange: onChangeDescriptionAlignment
     })), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("figure", {
-      className: "podkit-logo"
+      className: "gutenberg-logo"
     }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("img", {
       src: episodeImage,
       alt: "logo"
@@ -535,40 +535,40 @@ registerBlockType("podkit/extended", {
       render: function render(_ref) {
         var open = _ref.open;
         return Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(IconButton, {
-          className: "podkit-logo__button",
+          className: "gutenberg-logo__button",
           onClick: open,
           icon: "format-image",
           showTooltip: "true",
-          label: __("Change image.", "podkit")
+          label: __("Change image.", "gutenberg")
         });
       }
     })), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("div", {
-      className: "podkit-info"
+      className: "gutenberg-info"
     }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("div", {
-      className: "podkit-nameplate"
-    }, __("The Binaryville Podcast", "podkit")), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("h3", {
-      className: "podkit-title"
+      className: "gutenberg-nameplate"
+    }, __("The Binaryville Podcast", "gutenberg")), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("h3", {
+      className: "gutenberg-title"
     }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(RichText, {
-      placeholder: __("Podcast episode title", "podkit"),
+      placeholder: __("Podcast episode title", "gutenberg"),
       value: epsiodeTitle,
       onChange: onChangeEpisodeTitle
     }))), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("div", {
-      className: "podkit-description"
+      className: "gutenberg-description"
     }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(RichText, {
       style: {
         textAlign: descriptionAlignment
       },
       multiline: "p",
-      placeholder: __("Episode description", "podkit"),
+      placeholder: __("Episode description", "gutenberg"),
       onChange: onChangeEpisodeDescription,
       value: episodeDescription
     })), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("div", {
-      className: "podkit-cta"
+      className: "gutenberg-cta"
     }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("a", {
       href: "#"
-    }, __("Listen now!", "podkit")), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(URLInputButton, {
-      className: "podkit-dropdown__input",
-      label: __("Episode URL", "podkit"),
+    }, __("Listen now!", "gutenberg")), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(URLInputButton, {
+      className: "gutenberg-dropdown__input",
+      label: __("Episode URL", "gutenberg"),
       onChange: onChangeEpisodeURL,
       url: episodeURL
     })))];
@@ -582,34 +582,34 @@ registerBlockType("podkit/extended", {
         descriptionAlignment = _props$attributes2.descriptionAlignment,
         backgroundColor = _props$attributes2.backgroundColor;
     return Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("div", {
-      className: "podkit-block podkit-expanded",
+      className: "gutenberg-block gutenberg-expanded",
       style: {
         background: backgroundColor
       }
     }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("figure", {
-      className: "podkit-logo"
+      className: "gutenberg-logo"
     }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("img", {
       src: episodeImage,
       alt: "logo"
     })), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("div", {
-      className: "podkit-info"
+      className: "gutenberg-info"
     }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("div", {
-      className: "podkit-nameplate"
-    }, __("The Binaryville Podcast", "podkit")), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("h3", {
-      className: "podkit-title"
+      className: "gutenberg-nameplate"
+    }, __("The Binaryville Podcast", "gutenberg")), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("h3", {
+      className: "gutenberg-title"
     }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(RichText.Content, {
       value: epsiodeTitle
     }))), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("div", {
-      className: "podkit-description",
+      className: "gutenberg-description",
       style: "text-align:".concat(descriptionAlignment)
     }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(RichText.Content, {
       multiline: "p",
       value: episodeDescription
     })), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("div", {
-      className: "podkit-cta"
+      className: "gutenberg-cta"
     }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("a", {
       href: episodeURL
-    }, __("Listen now!", "podkit"))));
+    }, __("Listen now!", "gutenberg"))));
   }
 });
 
@@ -635,25 +635,25 @@ var RichText = wp.editor.RichText;
 var withSelect = wp.data.withSelect;
 
 
-registerBlockType("podkit/dynamic", {
-  title: __("Latest episode promo", "podkit"),
+registerBlockType("gutenberg/dynamic", {
+  title: __("Latest episode promo", "gutenberg"),
   icon: {
     src: _bv_logo_svg__WEBPACK_IMPORTED_MODULE_1__["ReactComponent"]
   },
-  category: "podkit",
+  category: "gutenberg",
   supports: {
     align: ['wide', 'full']
   },
   styles: [{
     name: 'default',
-    label: __('Red (default)', "podkit"),
+    label: __('Red (default)', "gutenberg"),
     isDefault: true
   }, {
     name: 'blue',
-    label: __('Blue', "podkit")
+    label: __('Blue', "gutenberg")
   }, {
     name: 'yellow',
-    label: __('Yellow', "podkit")
+    label: __('Yellow', "gutenberg")
   }],
   edit: withSelect(function (select) {
     return {
@@ -686,29 +686,29 @@ registerBlockType("podkit/dynamic", {
     };
 
     return Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("div", {
-      className: "".concat(className, " podkit-block podkit-dynamic")
+      className: "".concat(className, " gutenberg-block gutenberg-dynamic")
     }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("figure", {
-      className: "podkit-logo"
+      className: "gutenberg-logo"
     }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("img", {
-      src: featImg(post.featured_image_podkitFeatImg_url),
+      src: featImg(post.featured_image_gutenbergFeatImg_url),
       alt: "logo"
     })), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("div", {
-      className: "podkit-info"
+      className: "gutenberg-info"
     }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("div", {
-      className: "podkit-nameplate"
-    }, __("The Binaryville Podcast", "podkit")), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("h3", {
-      className: "podkit-title"
+      className: "gutenberg-nameplate"
+    }, __("The Binaryville Podcast", "gutenberg")), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("h3", {
+      className: "gutenberg-title"
     }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(RichText.Content, {
       value: post.title.rendered
     }))), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("div", {
-      className: "podkit-description"
+      className: "gutenberg-description"
     }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(RichText.Content, {
       value: post.excerpt.rendered
     })), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("div", {
-      className: "podkit-cta"
+      className: "gutenberg-cta"
     }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("a", {
       href: post.link
-    }, __("Listen now!", "podkit"))));
+    }, __("Listen now!", "gutenberg"))));
   }),
   save: function save(props) {
     return null;

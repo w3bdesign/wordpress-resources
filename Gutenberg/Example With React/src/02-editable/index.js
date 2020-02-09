@@ -5,15 +5,15 @@ const { RichText } = wp.editor;
 import { ReactComponent as Logo } from "../bv-logo.svg";
 import logoWhiteURL from "../bv-logo-white.svg";
 
-registerBlockType("podkit/editable", {
-  title: __("Custom Title", "podkit"),
+registerBlockType("gutenberg/editable", {
+  title: __("Custom Title", "gutenberg"),
   icon: { src: Logo },
-  category: "podkit",
+  category: "gutenberg",
   attributes: {
     epsiodeTitle: {
       type: "string",
       source: "html",
-      selector: ".podkit-title"
+      selector: ".gutenberg-title"
     }
   },
 
@@ -33,23 +33,23 @@ registerBlockType("podkit/editable", {
     };
 
     return (
-      <div className={`${className} podkit-block podkit-editable`}>
-        <figure className="podkit-logo">
+      <div className={`${className} gutenberg-block gutenberg-editable`}>
+        <figure className="gutenberg-logo">
           <img src={logoWhiteURL} alt="logo" />
         </figure>
-        <div className="podkit-info">
-          <div className="podkit-nameplate">
-            {__("The Binaryville Podcast", "podkit")}
+        <div className="gutenberg-info">
+          <div className="gutenberg-nameplate">
+            {__("The Binaryville Podcast", "gutenberg")}
           </div>
-          <h3 className="podkit-title">
+          <h3 className="gutenberg-title">
             <RichText 
-              placeholder={__("Podcast episode title", "podkit")}
+              placeholder={__("Podcast episode title", "gutenberg")}
               value={epsiodeTitle}
               onChange={onChangeEpisodeTitle}
             />
           </h3>
-          <div className="podkit-cta">
-            <a href="#">{__("Like & Subscribe!", "podkit")}</a>
+          <div className="gutenberg-cta">
+            <a href="#">{__("Like & Subscribe!", "gutenberg")}</a>
           </div>
         </div>
       </div>
@@ -61,19 +61,19 @@ registerBlockType("podkit/editable", {
     } = props;
 
     return (
-      <div className="podkit-block podkit-static">
-        <figure className="podkit-logo">
+      <div className="gutenberg-block gutenberg-static">
+        <figure className="gutenberg-logo">
           <img src={logoWhiteURL} alt="logo" />
         </figure>
-        <div className="podkit-info">
-          <div className="podkit-nameplate">
-            {__("The Binaryville Podcast", "podkit")}
+        <div className="gutenberg-info">
+          <div className="gutenberg-nameplate">
+            {__("The Binaryville Podcast", "gutenberg")}
           </div>
-          <h3 className="podkit-title">
+          <h3 className="gutenberg-title">
             <RichText.Content value={epsiodeTitle} />
           </h3>
-          <div className="podkit-cta">
-            <a href="/subscribe">{__("Like & Subscribe!", "podkit")}</a>
+          <div className="gutenberg-cta">
+            <a href="/subscribe">{__("Like & Subscribe!", "gutenberg")}</a>
           </div>
         </div>
       </div>

@@ -15,20 +15,20 @@ const {
 import { ReactComponent as Logo } from "../bv-logo.svg";
 import logoWhiteURL from "../bv-logo-white.svg";
 
-registerBlockType("podkit/extended", {
-  title: __("Extended episode promo", "podkit"),
+registerBlockType("gutenberg/extended", {
+  title: __("Extended episode promo", "gutenberg"),
   icon: { src: Logo },
-  category: "podkit",
+  category: "gutenberg",
   attributes: {
     epsiodeTitle: {
       type: "string",
       source: "html",
-      selector: ".podkit-title"
+      selector: ".gutenberg-title"
     },
     episodeImage: {
       type: "string",
       source: "attribute",
-      selector: ".podkit-logo img",
+      selector: ".gutenberg-logo img",
       attribute: "src",
       default: logoWhiteURL
     },
@@ -36,12 +36,12 @@ registerBlockType("podkit/extended", {
       type: "array",
       source: "children",
       multiline: "p",
-      selector: ".podkit-description"
+      selector: ".gutenberg-description"
     },
     episodeURL: {
       type: "string",
       source: "attribute",
-      selector: ".podkit-cta a",
+      selector: ".gutenberg-cta a",
       attribute: "href"
     },
     descriptionAlignment: {
@@ -58,16 +58,16 @@ registerBlockType("podkit/extended", {
   styles: [
     {
         name: 'default',
-        label: __( 'Red (default)', "podkit" ),
+        label: __( 'Red (default)', "gutenberg" ),
         isDefault: true
     },
     {
         name: 'blue',
-        label: __( 'Blue', "podkit" )
+        label: __( 'Blue', "gutenberg" )
     },
     {
         name: 'yellow',
-        label: __( 'Yellow', "podkit" )
+        label: __( 'Yellow', "gutenberg" )
     }
   ],
 
@@ -91,9 +91,9 @@ registerBlockType("podkit/extended", {
       setAttributes({ epsiodeTitle: newEpisodeTitle });
     };
 
-    // Grab imageObject, set the value of episodeImage to imageObject.sizes.podkitFeatImg.url.
+    // Grab imageObject, set the value of episodeImage to imageObject.sizes.gutenbergFeatImg.url.
     const onImageSelect = imageObject => {
-      setAttributes({ episodeImage: imageObject.sizes.podkitFeatImg.url });
+      setAttributes({ episodeImage: imageObject.sizes.gutenbergFeatImg.url });
     };
 
     // Grab newEpisodeDescription, set the value of episodeDescription to newEpisodeDescription.
@@ -118,11 +118,11 @@ registerBlockType("podkit/extended", {
 
     return [
       <InspectorControls>
-        <PanelBody title={ __( 'Color settings', "podkit" ) }>
+        <PanelBody title={ __( 'Color settings', "gutenberg" ) }>
           <div className="components-base-control">
             <div className="components-base-control__field">
               <label className="components-base-control__label">
-                {__("Background color", "podkit")}
+                {__("Background color", "gutenberg")}
               </label>
               <ColorPalette
                 value={backgroundColor}
@@ -133,7 +133,7 @@ registerBlockType("podkit/extended", {
         </PanelBody>
       </InspectorControls>,
       <div 
-        className={`${className} podkit-block podkit-expanded`}
+        className={`${className} gutenberg-block gutenberg-expanded`}
         style={{
           background: backgroundColor
         }}
@@ -144,7 +144,7 @@ registerBlockType("podkit/extended", {
             onChange={onChangeDescriptionAlignment}
           />
         </BlockControls>
-        <figure className="podkit-logo">
+        <figure className="gutenberg-logo">
           <img src={episodeImage} alt="logo" />
           <MediaUpload
             onSelect={onImageSelect}
@@ -152,43 +152,43 @@ registerBlockType("podkit/extended", {
             value={episodeImage}
             render={({ open }) => (
               <IconButton
-                className="podkit-logo__button"
+                className="gutenberg-logo__button"
                 onClick={open}
                 icon="format-image"
                 showTooltip="true"
-                label={__("Change image.", "podkit")}
+                label={__("Change image.", "gutenberg")}
               /> 
             )}
           />
         </figure>
-        <div className="podkit-info">
-          <div className="podkit-nameplate">
-            {__("The Binaryville Podcast", "podkit")}
+        <div className="gutenberg-info">
+          <div className="gutenberg-nameplate">
+            {__("The Binaryville Podcast", "gutenberg")}
           </div>
-          <h3 className="podkit-title">
+          <h3 className="gutenberg-title">
             <RichText 
-              placeholder={__("Podcast episode title", "podkit")}
+              placeholder={__("Podcast episode title", "gutenberg")}
               value={epsiodeTitle}
               onChange={onChangeEpisodeTitle}
             />
           </h3>
         </div>
-        <div className="podkit-description">
+        <div className="gutenberg-description">
           <RichText
             style={{ textAlign: descriptionAlignment }}
             multiline="p"
-            placeholder={__("Episode description", "podkit")}
+            placeholder={__("Episode description", "gutenberg")}
             onChange={onChangeEpisodeDescription}
             value={episodeDescription}
           />
         </div>
-        <div className="podkit-cta">
+        <div className="gutenberg-cta">
           {/* Note: href is NOT populated with attribute to avoid
               accidental navigation from within the editor. */}
-          <a href="#">{__("Listen now!", "podkit")}</a>
+          <a href="#">{__("Listen now!", "gutenberg")}</a>
           <URLInputButton
-            className="podkit-dropdown__input"
-            label={__("Episode URL", "podkit")}
+            className="gutenberg-dropdown__input"
+            label={__("Episode URL", "gutenberg")}
             onChange={onChangeEpisodeURL}
             url={episodeURL}
           />
@@ -209,32 +209,32 @@ registerBlockType("podkit/extended", {
 
     return (
       <div 
-        className="podkit-block podkit-expanded"
+        className="gutenberg-block gutenberg-expanded"
         style={{
           background: backgroundColor
         }}>
-        <figure className="podkit-logo">
+        <figure className="gutenberg-logo">
           <img src={episodeImage} alt="logo" />
         </figure>
-        <div className="podkit-info">
-          <div className="podkit-nameplate">
-            {__("The Binaryville Podcast", "podkit")}
+        <div className="gutenberg-info">
+          <div className="gutenberg-nameplate">
+            {__("The Binaryville Podcast", "gutenberg")}
           </div>
-          <h3 className="podkit-title">
+          <h3 className="gutenberg-title">
             <RichText.Content value={epsiodeTitle} />
           </h3>
         </div>
-        <div className="podkit-description" style={`text-align:${descriptionAlignment}`}>
+        <div className="gutenberg-description" style={`text-align:${descriptionAlignment}`}>
           <RichText.Content
             multiline="p"
             value={episodeDescription}
           />
         </div>
-        <div className="podkit-cta">
+        <div className="gutenberg-cta">
           {/* Note: href IS populated with attribute here
               because this is where the link is saved. */}
           <a href={episodeURL}>
-            {__("Listen now!", "podkit")}
+            {__("Listen now!", "gutenberg")}
           </a>
         </div>
       </div>
