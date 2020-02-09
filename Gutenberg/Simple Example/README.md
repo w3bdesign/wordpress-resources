@@ -1,1 +1,0 @@
-# Example Gutenberg block
