@@ -46,6 +46,11 @@ A personal list of interesting Wordpress resources.
 
 - https://torquemag.io/2020/01/create-gutenberg-block-with-acf/
 
+Deactivate Gutenberg:
+```
+add_filter( ‘use_block_editor_for_post’, ‘__return_false’);
+```
+
 ## HTML5
 
 - https://internetingishard.com/html-and-css/semantic-html/
