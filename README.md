@@ -26,6 +26,7 @@ A personal list of interesting Wordpress resources.
 - https://sevencoloursblog.wordpress.com/2019/03/06/running-codeception-functional-test-cases-with-circleci/
 - https://deliciousbrains.com/automated-testing-woocommerce/
 - https://codeception.com/docs/03-AcceptanceTests
+- https://macarthur.me/posts/simpler-unit-testing-for-wordpress
 
 ## Speed optimization
 
