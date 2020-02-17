@@ -1,0 +1,9 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "Gutenberg/Example With React/package.json"
+      ]
+    }
+  }
+}
