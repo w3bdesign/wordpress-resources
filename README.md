@@ -1,5 +1,7 @@
 # Wordpress resources
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/w3bdesign/wordpress-resources.svg)](https://greenkeeper.io/)
+
 A personal list of interesting Wordpress resources.
 
 ## Wordpress coding standards
