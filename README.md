@@ -13,6 +13,7 @@ A personal list of interesting Wordpress resources.
 
 ## Wordpress development
 
+- https://vegibit.com/the-top-100-most-commonly-used-wordpress-functions/
 - https://www.hostinger.com/tutorials/wordpress-cheat-sheet
 - https://developer.wordpress.org/plugins/plugin-basics/
 - https://iandunn.name/content/presentations/wp-oop-mvc/mvc.php
