@@ -101,4 +101,6 @@ add_filter( "use_block_editor_for_post", "__return_false");
 
 ## Misc
 
-https://github.com/w3bdesign/wordpress-resources/blob/master/MISC.md
+- https://github.com/w3bdesign/wordpress-resources/blob/master/MISC.md
+- https://codex.wordpress.org/Function_Reference
+
