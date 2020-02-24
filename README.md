@@ -22,10 +22,15 @@ A personal list of interesting Wordpress resources.
 - https://github.com/LearnWebCode/vagrant-lamp
 - https://coder-coder.com/gulp-4-walk-through/
 
+### Updating
+
+- https://carlalexander.ca/automatic-wordpress-updates-bedrock-dependabot/
+
 <hr>
 
 ## Automated testing
 
+- https://carlalexander.ca/continuous-deployment-wordpress-directory-circleci/
 - https://codeception.com/for/wordpress
 - https://github.com/lucatume/wp-browser
 - https://chrislema.com/acceptance-testing-wordpress-codeception/
