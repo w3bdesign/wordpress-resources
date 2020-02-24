@@ -40,7 +40,7 @@ plugins_url() - Retrieves a URL within the plugins or mu-plugins directory.
 ### Content functions
 
 ```
-get_the_title() : This function gives us quick access to the item's title
+get_the_title() - This function gives us quick access to the item's title
 ```
 
 <hr>
