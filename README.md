@@ -30,6 +30,7 @@ A personal list of interesting Wordpress resources.
 
 ## Automated testing
 
+- https://circleci.com/docs/2.0/configuration-reference/
 - https://carlalexander.ca/continuous-deployment-wordpress-directory-circleci/
 - https://codeception.com/for/wordpress
 - https://github.com/lucatume/wp-browser
