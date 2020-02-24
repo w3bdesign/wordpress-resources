@@ -13,6 +13,7 @@ A personal list of interesting Wordpress resources.
 
 ## Wordpress development
 
+- https://adambrown.info/p/wp_hooks/version/5.1
 - https://vegibit.com/the-top-100-most-commonly-used-wordpress-functions/
 - https://www.hostinger.com/tutorials/wordpress-cheat-sheet
 - https://developer.wordpress.org/plugins/plugin-basics/
@@ -104,4 +105,3 @@ add_filter( "use_block_editor_for_post", "__return_false");
 
 - https://github.com/w3bdesign/wordpress-resources/blob/master/MISC.md
 - https://codex.wordpress.org/Function_Reference
-
