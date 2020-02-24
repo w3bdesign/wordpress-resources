@@ -18,7 +18,6 @@ admin_url() - Provides the address of the WordPress administrative pages
 content_url() - Indicates where the wp-content directory can be found
 ```
 
-
 ```
 site_url() and home_url() - Returns the site address
 ```
@@ -38,8 +37,7 @@ plugins_url() - Retrieves a URL within the plugins or mu-plugins directory.
 <hr>
 
 ```
-add_filter( 'hook_name', 'your_function_name', [priority],
-[accepted_args] );
+add_filter( 'hook_name', 'your_function_name', [priority], [accepted_args] ) - Hook a function or method to a specific filter action.
 ```
-Hook a function or method to a specific filter action.
+
 
