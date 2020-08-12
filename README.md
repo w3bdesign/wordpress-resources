@@ -8,6 +8,7 @@ A personal list of interesting Wordpress resources.
 - https://www.elegantthemes.com/blog/resources/a-newbies-guide-to-wordpress-coding-standards
 - https://torquemag.io/2019/03/wordpress-coding-standards/
 - https://github.com/WordPress/WordPress-Coding-Standards
+- https://github.com/rtCamp/action-phpcs-code-review
 
 <hr>
 
