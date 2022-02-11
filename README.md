@@ -2,7 +2,7 @@
 
 A personal list of interesting Wordpress resources.
 
-- [Awesome WordPress](#awesome-wordpress)
+- [Wordpress Resources](#wordpress-resources)
 	- [Core](#core)
 	- [Themes and Framework](#themes-and-framework)
 	- [Gutenberg](#gutenberg)
