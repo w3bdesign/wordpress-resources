@@ -7,6 +7,7 @@ A personal list of interesting Wordpress resources.
 	- [Themes and Framework](#themes-and-framework)
 	- [Gutenberg](#gutenberg)
 	- [Plugins](#plugins)
+- [Alt Audit](https://altaudit.com) — Bulk alt text manager and image SEO plugin for WordPress. Scans media library, generates WCAG-compliant alt text using AI or free rule-based templates. Free on WordPress.org.
 		- [Featured Plugins](#featured-plugins)
 		- [SEO](#seo)
 		- [Dev](#dev-plugins)
